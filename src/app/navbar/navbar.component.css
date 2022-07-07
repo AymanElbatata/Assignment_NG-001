@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI Bold';
+}
+.mynavbar{
+    background-color: #2C3E50;
+    z-index: 2;
+}
+.nav-item a:hover{
+    color: #1ABC9C !important;
+}
+.myhome{
+    background-color: #1ABC9C;
+    height: 800px;
+}
+.myline{
+    height: 3px;
+    width: 120px;
+    background-color: white;
+}
+.myline2{
+    height: 3px;
+    width: 120px;
+    background-color: black;
+}
+.myheadname{
+    font-size: 4.5rem;
+}
+.myimages img, .item, .overlay{
+    border-radius: 1rem;
+}
+
+.modal button{
+    color: white !important;
+    background-color: #1ABC9C !important;
+}
+
+.myabout{
+    margin-top: 1rem;
+    padding-top: 2.5rem;
+    background-color: #1ABC9C;
+    padding-bottom: 2rem;
+}
+.aboutme2{
+    margin-top: 2rem;
+    padding-top: 2.5rem;
+}
+textarea{
+    resize: none;
+}
+input::placeholder, textarea::placeholder{
+    font-size: 1.5rem;
+}
+.contactform{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+
+.item{
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 1rem; */
+    /* padding: 10px; */
+    margin: .5rem;
+
+}
+
+ .overlay{
+    background-color: #1ABC9C;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item:hover .overlay{
+    opacity: .8;
+}
+
+.myplus{
+    font-size: 5rem;
+    color: white;
+}
+
+.myfooter{
+    background-color: #2C3E50;
+}
+
+.mysignature{
+    background-color: #1A252F;
+}

@@ -1,0 +1,9 @@
+import { Products } from './products';
+export const myProducts:Products[]=[
+    {id:1,Pname:'cabin',imgurl:"assets/myimages/cabin.png",details:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. cabin."},
+    {id:2,Pname:'cake',imgurl:"assets/myimages/cake.png",details:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. cake."},
+    {id:3,Pname:'circus',imgurl:"assets/myimages/circus.png",details:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. circus."},
+    {id:4,Pname:'game',imgurl:"assets/myimages/game.png",details:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. game."},
+    {id:5,Pname:'safe',imgurl:"assets/myimages/safe.png",details:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. safe."},
+    {id:6,Pname:'submarine',imgurl:"assets/myimages/submarine.png",details:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. submarine."}
+]
